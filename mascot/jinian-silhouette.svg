@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 200" width="120" height="200">
+  <title>笄娘剪影</title>
+
+  <!-- Hair bun top -->
+  <ellipse cx="60" cy="12" rx="14" ry="10" fill="#2d6a4f"/>
+  <!-- Hair ornament horizontal bar -->
+  <rect x="42" y="10" width="36" height="3" rx="1.5" fill="#2d6a4f"/>
+
+  <!-- Head -->
+  <ellipse cx="60" cy="30" rx="18" ry="20" fill="#2d6a4f"/>
+
+  <!-- Face oval cutout — slightly lighter to suggest face shape -->
+  <ellipse cx="60" cy="30" rx="13" ry="15" fill="#2d3a2e"/>
+
+  <!-- Left eye -->
+  <ellipse cx="54" cy="27" rx="3" ry="4" fill="#2d6a4f"/>
+  <!-- Right eye -->
+  <ellipse cx="66" cy="27" rx="3" ry="4" fill="#2d6a4f"/>
+
+  <!-- Nose -->
+  <ellipse cx="60" cy="33" rx="1.5" ry="1" fill="#2d6a4f"/>
+
+  <!-- Mouth — gentle smile curve using path -->
+  <path d="M55,38 Q60,42 65,38" stroke="#2d6a4f" stroke-width="1.5" fill="none"/>
+
+  <!-- Long hair flowing down sides -->
+  <!-- Left side hair -->
+  <path d="M42,20 Q30,40 28,80 Q32,100 36,110" stroke="#2d6a4f" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- Right side hair -->
+  <path d="M78,20 Q90,40 92,80 Q88,100 84,110" stroke="#2d6a4f" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+  <!-- Neck -->
+  <rect x="54" y="48" width="12" height="12" rx="3" fill="#2d6a4f"/>
+
+  <!-- Hanfu collar — V-neck -->
+  <path d="M40,58 L60,75 L80,58" stroke="#2d6a4f" stroke-width="2.5" fill="none"/>
+
+  <!-- Hanfu body top — wide sleeves -->
+  <path d="M20,70 Q30,60 44,60 L44,110 L36,120 L84,120 L76,110 L76,60 Q90,60 100,70 Q110,85 108,95 Q98,90 84,92 L84,60 M36,60 Q22,62 12,70 Q10,85 20,92 Q28,88 36,90 L36,60" fill="#2d6a4f"/>
+
+  <!-- Belt/sash -->
+  <rect x="40" y="110" width="40" height="6" rx="2" fill="#2d6a4f"/>
+  <!-- Belt knot -->
+  <ellipse cx="60" cy="121" rx="8" ry="5" fill="#2d6a4f"/>
+  <path d="M52,121 Q50,130 48,140" stroke="#2d6a4f" stroke-width="3" fill="none"/>
+  <path d="M68,121 Q70,130 72,140" stroke="#2d6a4f" stroke-width="3" fill="none"/>
+
+  <!-- Hanfu skirt — long, A-line -->
+  <path d="M40,116 Q30,140 22,180 Q28,185 38,182 L50,150 L60,200 L70,150 L82,182 Q92,185 98,180 Q90,140 80,116 Z" fill="#2d6a4f"/>
+
+  <!-- Skirt hem decorative lines -->
+  <path d="M26,175 Q60,168 94,175" stroke="#2d3a2e" stroke-width="1" fill="none" opacity="0.5"/>
+</svg>

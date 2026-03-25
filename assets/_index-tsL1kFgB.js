@@ -1,0 +1,1 @@
+import{w as a,t as r,a as o}from"./chunk-UVKPFVEO-B4wIes0p.js";function s(t){return t.startsWith("zh")?"zh":"en"}const i=a(function(){const e=r();return o.useEffect(()=>{const n=s(navigator.language);e(`/${n}`,{replace:!0})},[e]),null});export{i as default};
